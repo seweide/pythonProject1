@@ -149,13 +149,13 @@ def signIn(uid):
     URL = 'https://miniprogram.alfaromeo.com.cn/apis/mini/v1/signIn?uid='+str(uid)
     r = requests.get(URL)
     print(r.text)
-    print('登录成功：')
+    print('登录成功')
 # 签到
 def myInfoToday(uid):
     URL = 'https://miniprogram.alfaromeo.com.cn/apis/mini/v1/myInfoToday?uid='+str(uid)
     r = requests.get(URL)
     print(r.text)
-    print('签到成功：')
+    print('签到成功')
 
 # 点赞
 def thumbEss(uid,essid,type):
